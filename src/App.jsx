@@ -12,7 +12,7 @@ import "aos/dist/aos.css";
 
 function App() {
   useEffect(() => {
-    Aos.init({ duration: 1000, offset: window.innerWidth>640 ? 250 : 425, once: true });
+    Aos.init({ duration: 1000, offset: window.innerWidth>640 ? 250 : 300, once: true });
   }, []);
 
   const [themeMode, setThemeMode] = useState("light");
