@@ -5,7 +5,7 @@ import bootstrapLogo from "../assets/skill assets/Bootstrap.svg";
 import tailwindLogo from "../assets/skill assets/Tailwind.png";
 import jsLogo from "../assets/skill assets/Javascript.svg";
 import reactLogo from "../assets/skill assets/React.png";
-import reduxLogo from "../assets/skill assets/redux.svg";
+import reduxLogo from "../assets/skill assets/Redux.svg";
 import nodejsLogo from "../assets/skill assets/NodeJs.svg";
 import expressLogo from "../assets/skill assets/Express.png";
 import mongodblogo from "../assets/skill assets/MongoDB.svg";
