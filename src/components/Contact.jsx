@@ -72,7 +72,10 @@ const Contact = () => {
           Feel free to reach out to me for any questions or opportunities!
         </div> */}
 
-        <div className="w-full bg-white dark:bg-[#131516] p-4 sm:p-8 rounded-lg shadow-md">
+        <div
+          className="w-full bg-white dark:bg-[#131516] p-4 sm:p-8 rounded-lg shadow-md"
+          data-aos="zoom-in"
+        >
           <form onSubmit={submitHandler} className="flex flex-col gap-y-1">
             <label
               htmlFor="name"
@@ -124,7 +127,11 @@ const Contact = () => {
               focus:outline-none border-[0.5px] valid:border-[#777c85] border-transparent transition-all duration-300 mb-8"
             ></textarea>
 
-            <Button content={"Send Message"} type={"submit"} icon={<IoIosSend />}/>
+            <Button
+              content={"Send Message"}
+              type={"submit"}
+              icon={<IoIosSend />}
+            />
           </form>
         </div>
       </div>

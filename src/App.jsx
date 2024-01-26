@@ -6,8 +6,15 @@ import HeroSection from "./components/HeroSection";
 import About from "../src/components/About";
 import Contact from "./components/Contact";
 import Skills from "./components/Skills";
+import Footer from "./components/Footer";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function App() {
+  useEffect(() => {
+    Aos.init({ duration: 1000, offset: window.innerWidth>640 ? 250 : 425, once: true });
+  }, []);
+
   const [themeMode, setThemeMode] = useState("light");
 
   const lightTheme = () => {
@@ -33,6 +40,7 @@ function App() {
         <About />
         <Skills />
         <Contact />
+        <Footer />
       </div>
     </ThemeProvider>
   );

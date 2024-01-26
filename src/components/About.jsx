@@ -1,6 +1,7 @@
 import React from "react";
 import aboutBg from "../assets/aboutBg.svg";
 import me from "../assets/Me.png";
+import Typewriter from "typewriter-effect";
 
 const About = () => {
   return (
@@ -22,6 +23,7 @@ const About = () => {
 
         <div
           className="w-11/12 sm:w-3/4 md:w-1/2 lg:w-1/4 aspect-square mx-auto "
+          data-aos="fade-up"
           style={{
             backgroundImage: `url(${me})`,
             backgroundSize: "cover",
@@ -32,11 +34,15 @@ const About = () => {
         <div
           className="text-black dark:text-white mx-auto text-center text-2xl font-bold tracking-wider 
         my-3"
+          data-aos="fade-up"
         >
           Dhruv Goel
         </div>
 
-        <div className="text-black dark:text-white text-center pb-8">
+        <div
+          className="text-black dark:text-white text-center pb-8"
+          data-aos="fade-up"
+        >
           Hello, I'm{" "}
           <span className="font-semibold text-[#6674cc] dark:text[#6e96cf]">
             Dhruv Goel
@@ -52,6 +58,7 @@ const About = () => {
           dynamic realm of technology, constantly pushing boundaries and
           embracing challenges.
         </div>
+      
       </div>
     </div>
   );

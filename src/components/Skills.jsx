@@ -14,8 +14,11 @@ import gitLogo from "../assets/skill assets/Git.svg";
 import githubLogo from "../assets/skill assets/GitHub.png";
 import vercelLogo from "../assets/skill assets/Vercel.jpg";
 import postmanLogo from "../assets/skill assets/Postman.png";
+import m from "../assets/skillsBgM.png";
 
 const Skills = () => {
+
+
   const frontendSkillsData = [
     {
       name: "HTML",
@@ -87,16 +90,21 @@ const Skills = () => {
 
   return (
     <div
-      className="w-full bg-[#f7f8fc] dark:bg-[#1b1d1e] pt-24 pb-8"
+      className="w-full bg-[#f7f8fc] dark:bg-[#1b1d1e] pt-24 pb-8 relative"
       id="skills"
     >
+      <img src={m} alt="" className="absolute top-0 left-0" />
       <div className="w-11/12 md:w-10/12 max-w-7xl mx-auto ">
-        <div className="text-3xl text-[#6d7ace] dark:text-[#6b92c9] font-bold tracking-wider text-center">
+        <div
+          className="text-3xl text-[#6d7ace] dark:text-[#6b92c9] font-bold tracking-wider text-center"
+          data-aos="fade-up"
+        >
           Skills
         </div>
         <div
           className="w-full sm:w-3/4 md:w-1/2 mx-auto text-lg text-black dark:text-white text-center
         py-3"
+          data-aos="fade-up"
         >
           Here are some of my skills on which I have been working on for the
           past 2 years.
@@ -105,6 +113,7 @@ const Skills = () => {
           <div
             className="flex flex-col items-center gap-y-2 border border-[#6d7ace] dark:border-[#6b92c9] rounded-lg p-2 sm:p-4 
           max-w-xl"
+            data-aos="fade-right"
           >
             <p className="text-[#6d7ace] dark:text-[#6b92c9] text-2xl font-bold -mt-2">
               Frontend
@@ -126,6 +135,7 @@ const Skills = () => {
           <div
             className="flex flex-col items-center gap-y-2 border border-[#6d7ace] dark:border-[#6b92c9] rounded-lg p-2 sm:p-4 
           max-w-xl "
+            data-aos="fade-left"
           >
             <p className="text-[#6d7ace] dark:text-[#6b92c9] text-2xl font-bold -mt-2">
               Backend
@@ -147,6 +157,7 @@ const Skills = () => {
           <div
             className="flex flex-col items-center gap-y-2 border border-[#6d7ace] dark:border-[#6b92c9] rounded-lg p-2 sm:p-4 
           max-w-xl "
+            data-aos="fade-up"
           >
             <p className="text-[#6d7ace] dark:text-[#6b92c9] text-2xl font-bold -mt-2">
               Others
