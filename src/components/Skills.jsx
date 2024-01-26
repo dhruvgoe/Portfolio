@@ -11,7 +11,7 @@ import expressLogo from "../assets/skill assets/Express.png";
 import mongodblogo from "../assets/skill assets/MongoDB.svg";
 import mongooseLogo from "../assets/skill assets/Mongoose.png";
 import gitLogo from "../assets/skill assets/Git.svg";
-import githubLogo from "../assets/skill assets/Github.png";
+import githubLogo from "../assets/skill assets/GitHub.png";
 import vercelLogo from "../assets/skill assets/Vercel.jpg";
 import postmanLogo from "../assets/skill assets/Postman.png";
 
