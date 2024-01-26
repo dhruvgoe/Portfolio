@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Typewriter from "typewriter-effect";
 import heroSectionImg from "../assets/AI_Image_Myself.png";
 import waveHand from "../assets/waving-hand.svg";
@@ -7,8 +7,14 @@ import linkedin from "../assets/linkedin-original.svg";
 import github from "../assets/github-square.svg";
 import instagram from "../assets/instagram-1.svg";
 import Button from "./Button";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const HeroSection = () => {
+  useEffect(() => {
+    Aos.init({duration:1000});
+  }, []);
+
   return (
     <div className="w-full bg-white dark:bg-[#131516] pt-44 pb-12">
       <div
@@ -16,7 +22,10 @@ const HeroSection = () => {
       flex gap-x-10 items-center flex-col-reverse sm:flex-row gap-y-6"
       >
         {/* Left Section */}
-        <div className="w-full sm:w-3/5 flex flex-col gap-y-8 items-center sm:items-start">
+        <div
+          className="w-full sm:w-3/5 flex flex-col gap-y-8 items-center sm:items-start"
+          data-aos="fade-right"
+        >
           <div
             className="text-black dark:text-white sm:text-2xl text-lg font-bold 
           tracking-wider leading-normal text-center sm:text-left"
@@ -102,7 +111,10 @@ const HeroSection = () => {
         </div>
 
         {/* Right Section */}
-        <div className="heroImg w-full sm:w-2/5 rounded-full overflow-hidden border-4 border-[#6674cc]">
+        <div
+          className="heroImg w-full sm:w-2/5 rounded-full overflow-hidden border-4 border-[#6674cc]"
+          data-aos={window.innerWidth>640?"fade-left" : "zoom-in"}
+        >
           <img src={heroSectionImg} alt="" />
         </div>
       </div>

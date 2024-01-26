@@ -13,12 +13,12 @@
 @keyframes heroImgAnimate {
     0%{
         filter:grayscale(0);
-        transform:scale(1);
+        transform:scale(1) ;
         
     }
 
     50%{
-        transform:scale(1.1);
+        transform:scale(1.1) ;
         filter:grayscale(1);
         box-shadow: 3px 3px 10px black;
     }
