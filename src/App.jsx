@@ -9,6 +9,7 @@ import Skills from "./components/Skills";
 import Footer from "./components/Footer";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import Projects from "./components/Projects";
 
 function App() {
   useEffect(() => {
@@ -39,6 +40,7 @@ function App() {
         <HeroSection />
         <About />
         <Skills />
+        <Projects />
         <Contact />
         <Footer />
       </div>
