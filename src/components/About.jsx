@@ -6,13 +6,7 @@ const About = () => {
   return (
     <div className="w-full bg-white dark:bg-[#131516] pt-24" id="about">
       <div
-        className="w-11/12 md:10/12 max-w-7xl mx-auto"
-        style={{
-          backgroundImage: `url(${aboutBg})`,
-          backgroundSize: "cover",
-          backgroundRepeat: "no-repeat",
-          backgroundPosition: "center",
-        }}
+        className="w-11/12 md:10/12 max-w-7xl mx-auto " id="aboutMe"
       >
         <div className="text-black dark:text-white text-3xl font-bold tracking-wider">
           About <span className="text-[#6674cc] dark:text-[#6e96cf]">Me</span>
