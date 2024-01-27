@@ -110,7 +110,7 @@ const Projects = () => {
               <img
                 src={item.pic}
                 alt=""
-                className=" rounded-lg w-full aspect-video shadow-md"
+                className=" rounded-lg w-full aspect-[2/1] shadow-md"
               />
               <p className="text-lg text-black dark:text-white text-center font-semibold">
                 {item.name}
@@ -123,6 +123,11 @@ const Projects = () => {
                   >{`${i}`}</div>
                 ))}
               </div>
+              <p className="text-sm text-black dark:text-white">
+                The app allows users to create, edit, and delete notes using a
+                user-friendly interface. The app also uses local storage to
+                persist the notes data across sessions.
+              </p>
               <div className="flex items-center gap-x-4">
                 <a
                   href={item.link}
