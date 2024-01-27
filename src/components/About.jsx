@@ -1,5 +1,5 @@
 import React from "react";
-import aboutBg from "./assets/aboutBg.svg";
+import aboutBg from "../assets/aboutBg.svg";
 import me from "../assets/Me.png";
 
 const About = () => {
