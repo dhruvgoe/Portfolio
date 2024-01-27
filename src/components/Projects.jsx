@@ -110,7 +110,7 @@ const Projects = () => {
               <img
                 src={item.pic}
                 alt=""
-                className=" rounded-lg w-full aspect-video"
+                className=" rounded-lg w-full aspect-video shadow-md"
               />
               <p className="text-lg text-black dark:text-white text-center font-semibold">
                 {item.name}
@@ -127,7 +127,7 @@ const Projects = () => {
                 <a
                   href={item.link}
                   target="_blank"
-                  className="border-2 border-[#6674cc] dark:border-[#29347a] rounded-md 
+                  className="border border-[#6674cc] dark:border-[#29347a] rounded-md 
                 text-xs sm:text-base px-3 py-1 text-black dark:text-white"
                 >
                   Veiw Live App
@@ -135,7 +135,7 @@ const Projects = () => {
                 <a
                   href={item.repoLink}
                   target="_blank"
-                  className="bg-[#6674cc] dark:bg-[#29347a] border-2 border-[#6674cc] 
+                  className="bg-[#6674cc] dark:bg-[#29347a] border border-[#6674cc] 
                 dark:border-[#29347a] rounded-md text-xs sm:text-base px-3 py-1 text-white"
                 >
                   Veiw Source Code
