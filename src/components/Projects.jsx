@@ -128,7 +128,7 @@ const Projects = () => {
                   href={item.link}
                   target="_blank"
                   className="border-2 border-[#6674cc] dark:border-[#29347a] rounded-md 
-                text-base px-3 py-1 text-black dark:text-white"
+                text-xs sm:text-base px-3 py-1 text-black dark:text-white"
                 >
                   Veiw Live App
                 </a>
@@ -136,7 +136,7 @@ const Projects = () => {
                   href={item.repoLink}
                   target="_blank"
                   className="bg-[#6674cc] dark:bg-[#29347a] border-2 border-[#6674cc] 
-                dark:border-[#29347a] rounded-md text-base px-3 py-1 text-white"
+                dark:border-[#29347a] rounded-md text-xs sm:text-base px-3 py-1 text-white"
                 >
                   Veiw Source Code
                 </a>
