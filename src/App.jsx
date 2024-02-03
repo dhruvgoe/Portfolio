@@ -10,6 +10,7 @@ import Footer from "./components/Footer";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import Projects from "./components/Projects";
+import Education from "./components/Education";
 
 function App() {
   useEffect(() => {
@@ -40,6 +41,7 @@ function App() {
         <HeroSection />
         <About />
         <Skills />
+        <Education />
         <Projects />
         <Contact />
         <Footer />
