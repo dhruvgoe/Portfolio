@@ -37,6 +37,198 @@ const Projects = () => {
       techs: ["JS", "TAILWIND"],
       category: "Machine Learning",
     },
+    {
+      name: "Notes App",
+      link: "https://notes-app-react-by-dhruvgoe.vercel.app/",
+      repoLink: "https://github.com/dhruvgoe/Notes-App-React",
+      pic: notesApp,
+      techs: ["REACT JS", "TAILWIND"],
+      category: "Web App's",
+    },
+    {
+      name: "Speech-To-Text App",
+      link: "https://speech-to-text-react-by-dhruvgoe.vercel.app/",
+      repoLink: "https://github.com/dhruvgoe/Speech-To-Text-React",
+      pic: speechApp,
+      techs: ["REACT JS", "TAILWIND"],
+      category: "Web App's",
+    },
+    {
+      name: "Project Foodie",
+      link: "https://project-foodie-tailwind-by-dhruvgoe.vercel.app/",
+      repoLink: "https://github.com/dhruvgoe/Project-Foodie-Tailwind",
+      pic: foodieApp,
+      techs: ["JS", "TAILWIND"],
+      category: "Web App's",
+    },
+    {
+      name: "Project Foodie",
+      link: "https://project-foodie-tailwind-by-dhruvgoe.vercel.app/",
+      repoLink: "https://github.com/dhruvgoe/Project-Foodie-Tailwind",
+      pic: foodieApp,
+      techs: ["JS", "TAILWIND"],
+      category: "Machine Learning",
+    },
+    {
+      name: "Notes App",
+      link: "https://notes-app-react-by-dhruvgoe.vercel.app/",
+      repoLink: "https://github.com/dhruvgoe/Notes-App-React",
+      pic: notesApp,
+      techs: ["REACT JS", "TAILWIND"],
+      category: "Web App's",
+    },
+    {
+      name: "Speech-To-Text App",
+      link: "https://speech-to-text-react-by-dhruvgoe.vercel.app/",
+      repoLink: "https://github.com/dhruvgoe/Speech-To-Text-React",
+      pic: speechApp,
+      techs: ["REACT JS", "TAILWIND"],
+      category: "Web App's",
+    },
+    {
+      name: "Project Foodie",
+      link: "https://project-foodie-tailwind-by-dhruvgoe.vercel.app/",
+      repoLink: "https://github.com/dhruvgoe/Project-Foodie-Tailwind",
+      pic: foodieApp,
+      techs: ["JS", "TAILWIND"],
+      category: "Web App's",
+    },
+    {
+      name: "Project Foodie",
+      link: "https://project-foodie-tailwind-by-dhruvgoe.vercel.app/",
+      repoLink: "https://github.com/dhruvgoe/Project-Foodie-Tailwind",
+      pic: foodieApp,
+      techs: ["JS", "TAILWIND"],
+      category: "Machine Learning",
+    },
+    {
+      name: "Notes App",
+      link: "https://notes-app-react-by-dhruvgoe.vercel.app/",
+      repoLink: "https://github.com/dhruvgoe/Notes-App-React",
+      pic: notesApp,
+      techs: ["REACT JS", "TAILWIND"],
+      category: "Web App's",
+    },
+    {
+      name: "Speech-To-Text App",
+      link: "https://speech-to-text-react-by-dhruvgoe.vercel.app/",
+      repoLink: "https://github.com/dhruvgoe/Speech-To-Text-React",
+      pic: speechApp,
+      techs: ["REACT JS", "TAILWIND"],
+      category: "Web App's",
+    },
+    {
+      name: "Project Foodie",
+      link: "https://project-foodie-tailwind-by-dhruvgoe.vercel.app/",
+      repoLink: "https://github.com/dhruvgoe/Project-Foodie-Tailwind",
+      pic: foodieApp,
+      techs: ["JS", "TAILWIND"],
+      category: "Web App's",
+    },
+    {
+      name: "Project Foodie",
+      link: "https://project-foodie-tailwind-by-dhruvgoe.vercel.app/",
+      repoLink: "https://github.com/dhruvgoe/Project-Foodie-Tailwind",
+      pic: foodieApp,
+      techs: ["JS", "TAILWIND"],
+      category: "Machine Learning",
+    },
+    {
+      name: "Speech-To-Text App",
+      link: "https://speech-to-text-react-by-dhruvgoe.vercel.app/",
+      repoLink: "https://github.com/dhruvgoe/Speech-To-Text-React",
+      pic: speechApp,
+      techs: ["REACT JS", "TAILWIND"],
+      category: "Web App's",
+    },
+    {
+      name: "Project Foodie",
+      link: "https://project-foodie-tailwind-by-dhruvgoe.vercel.app/",
+      repoLink: "https://github.com/dhruvgoe/Project-Foodie-Tailwind",
+      pic: foodieApp,
+      techs: ["JS", "TAILWIND"],
+      category: "Web App's",
+    },
+    {
+      name: "Project Foodie",
+      link: "https://project-foodie-tailwind-by-dhruvgoe.vercel.app/",
+      repoLink: "https://github.com/dhruvgoe/Project-Foodie-Tailwind",
+      pic: foodieApp,
+      techs: ["JS", "TAILWIND"],
+      category: "Machine Learning",
+    },
+    {
+      name: "Notes App",
+      link: "https://notes-app-react-by-dhruvgoe.vercel.app/",
+      repoLink: "https://github.com/dhruvgoe/Notes-App-React",
+      pic: notesApp,
+      techs: ["REACT JS", "TAILWIND"],
+      category: "Web App's",
+    },
+    {
+      name: "Speech-To-Text App",
+      link: "https://speech-to-text-react-by-dhruvgoe.vercel.app/",
+      repoLink: "https://github.com/dhruvgoe/Speech-To-Text-React",
+      pic: speechApp,
+      techs: ["REACT JS", "TAILWIND"],
+      category: "Web App's",
+    },
+    {
+      name: "Project Foodie",
+      link: "https://project-foodie-tailwind-by-dhruvgoe.vercel.app/",
+      repoLink: "https://github.com/dhruvgoe/Project-Foodie-Tailwind",
+      pic: foodieApp,
+      techs: ["JS", "TAILWIND"],
+      category: "Web App's",
+    },
+    {
+      name: "Project Foodie",
+      link: "https://project-foodie-tailwind-by-dhruvgoe.vercel.app/",
+      repoLink: "https://github.com/dhruvgoe/Project-Foodie-Tailwind",
+      pic: foodieApp,
+      techs: ["JS", "TAILWIND"],
+      category: "Machine Learning",
+    },
+    {
+      name: "Notes App",
+      link: "https://notes-app-react-by-dhruvgoe.vercel.app/",
+      repoLink: "https://github.com/dhruvgoe/Notes-App-React",
+      pic: notesApp,
+      techs: ["REACT JS", "TAILWIND"],
+      category: "Web App's",
+    },
+    {
+      name: "Speech-To-Text App",
+      link: "https://speech-to-text-react-by-dhruvgoe.vercel.app/",
+      repoLink: "https://github.com/dhruvgoe/Speech-To-Text-React",
+      pic: speechApp,
+      techs: ["REACT JS", "TAILWIND"],
+      category: "Web App's",
+    },
+    {
+      name: "Project Foodie",
+      link: "https://project-foodie-tailwind-by-dhruvgoe.vercel.app/",
+      repoLink: "https://github.com/dhruvgoe/Project-Foodie-Tailwind",
+      pic: foodieApp,
+      techs: ["JS", "TAILWIND"],
+      category: "Web App's",
+    },
+    {
+      name: "Project Foodie",
+      link: "https://project-foodie-tailwind-by-dhruvgoe.vercel.app/",
+      repoLink: "https://github.com/dhruvgoe/Project-Foodie-Tailwind",
+      pic: foodieApp,
+      techs: ["JS", "TAILWIND"],
+      category: "Machine Learning",
+    },
+    {
+      name: "Project Foodie",
+      link: "https://project-foodie-tailwind-by-dhruvgoe.vercel.app/",
+      repoLink: "https://github.com/dhruvgoe/Project-Foodie-Tailwind",
+      pic: foodieApp,
+      techs: ["JS", "TAILWIND"],
+      category: "Machine Learning",
+    },
   ];
 
   const filters = ["All", "Web App's", "Machine Learning"];
@@ -45,6 +237,22 @@ const Projects = () => {
 
   const [filteredProjects, setFilteredProjects] = useState([]);
 
+  const [noOfProjectCard, setNoOfProjectCard] = useState(0);
+
+  useEffect(() => {
+    if (window.innerWidth > 768) {
+      setNoOfProjectCard(6);
+    } else if (window.innerWidth > 640 && window.innerWidth < 768) {
+      setNoOfProjectCard(4);
+    } else {
+      setNoOfProjectCard(2);
+    }
+  }, [activeFilter]);
+  
+  const clickHandler = (item) => {
+    setActiveFilter(item);
+  };
+  
   useEffect(() => {
     if (activeFilter === "All") {
       setFilteredProjects(projects);
@@ -54,11 +262,17 @@ const Projects = () => {
       (project) => project.category === activeFilter
     );
     setFilteredProjects(temp);
-  }, [activeFilter]);
+  }, [activeFilter,noOfProjectCard]);
 
-  const clickHandler = (item) => {
-    setActiveFilter(item);
-  };
+  function showMoreHandler() {
+    setNoOfProjectCard((prev) => {
+      if (prev * 2 >= filteredProjects.length) {
+        return filteredProjects.length;
+      } else {
+        return prev * 2;
+      }
+    });
+  }
 
   return (
     <div className="w-full bg-[#f7f8fc] dark:bg-[#1b1d1e] py-28" id="projects">
@@ -100,7 +314,7 @@ const Projects = () => {
           className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6"
           data-aos="fade-up"
         >
-          {filteredProjects.map((item, index) => (
+          {filteredProjects.slice(0,noOfProjectCard).map((item, index) => (
             <div
               key={index}
               className=" bg-white dark:bg-black shadow-lg rounded-lg p-4 
@@ -149,6 +363,18 @@ const Projects = () => {
             </div>
           ))}
         </div>
+        {noOfProjectCard >= filteredProjects.length ? (
+          <></>
+        ) : (
+          <div className="w-fit mx-auto pt-8">
+            <button
+              className="bg-[#6674cc] dark:bg-[#29347a] text-white py-1.5 px-4 rounded-lg"
+              onClick={showMoreHandler}
+            >
+              Show More...
+            </button>
+          </div>
+        )}
       </div>
     </div>
   );
