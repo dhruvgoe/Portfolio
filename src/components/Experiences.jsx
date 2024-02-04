@@ -4,7 +4,6 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import { IoSchool } from "react-icons/io5";
 import { IoIosStar } from "react-icons/io";
 import cpp from "../assets/C++.png";
 import codehelp from "../assets/codehelp.png";
