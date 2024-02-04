@@ -13,8 +13,6 @@ import Projects from "./components/Projects";
 import Education from "./components/Education";
 import Experiences from "./components/Experiences";
 
-import { register } from "swiper/element/bundle";
-
 function App() {
   useEffect(() => {
     Aos.init({ duration: 1000, once: true });
@@ -36,8 +34,6 @@ function App() {
     document.querySelector("html").classList.remove("light", "dark");
     document.querySelector("html").classList.add(themeMode);
   }, [themeMode]);
-
-  register();
 
   return (
     <ThemeProvider value={{ themeMode, lightTheme, darkTheme }}>
