@@ -36,12 +36,12 @@ const Navbar = () => {
       path: "#about",
     },
     {
-      title: "Skills",
-      path: "#skills",
-    },
-    {
       title: "Education",
       path: "#education",
+    },
+    {
+      title: "Skills",
+      path: "#skills",
     },
     {
       title: "Experience",

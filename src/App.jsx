@@ -12,6 +12,7 @@ import "aos/dist/aos.css";
 import Projects from "./components/Projects";
 import Education from "./components/Education";
 import Experiences from "./components/Experiences";
+import { FaRegCopyright } from "react-icons/fa6";
 
 function App() {
   useEffect(() => {
@@ -48,8 +49,14 @@ function App() {
         <Contact />
         <Footer />
         <div className="bg-white h-0.5 "></div>
-        <div className="bg-[#6674cc] dark:bg-[#29347a] text-white text-center pt-1 pb-4">
-          Made with ❤️ by Dhruv
+        <div
+          className="bg-[#6674cc] dark:bg-[#29347a] text-white
+        flex justify-around items-center"
+        >
+          <div className="flex justify-around items-center gap-x-2">
+            All Rights Reserved <FaRegCopyright />
+          </div>
+          <div className="">Made with ❤️ by Dhruv</div>
         </div>
       </div>
     </ThemeProvider>

@@ -66,7 +66,7 @@ const HeroSection = () => {
             journey of constant learning and growth.
           </div>
           <a
-            href="https://drive.google.com/file/d/1WYBJYtos5LOvDExBw2mDSI_rq5MCDque/view?usp=sharing"
+            href="https://drive.google.com/file/d/11h2cRYQ9FznJIt9RirPBOZV5PBuCPso3/view?usp=drive_link"
             className="outline-none"
             target="_blank"
           >

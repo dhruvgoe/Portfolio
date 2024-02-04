@@ -61,6 +61,7 @@ const Experiences = () => {
               the field.
               <a
                 href=""
+                target="_blank"
                 className="font-bold px-2 py-1 mt-4 border border-white 
                 hover:bg-white hover:text-[#6674cc] transition-all duration-200 rounded-md"
               >
@@ -89,10 +90,11 @@ const Experiences = () => {
             </h4>
             <p className="flex flex-col items-start gap-x-8">
               Summer intern focused on Hindi Optical Character Recognition (OCR)
-              during my second year, blending academic knowledge with practical
-              application in the field.
+              during my second year in group, blending academic knowledge with
+              practical application in the field.
               <a
                 href="https://github.com/dhruvgoe/Hindi-OCR"
+                target="_blank"
                 className="font-bold px-2 py-1 mt-4 border border-white 
                 hover:bg-white hover:text-[#6674cc] transition-all duration-200 rounded-md"
               >
@@ -130,6 +132,7 @@ const Experiences = () => {
               B.Tech program.
               <a
                 href=""
+                target="_blank"
                 className="font-bold px-2 py-1 mt-4 border border-white 
                 hover:bg-white hover:text-[#6674cc] transition-all duration-200 rounded-md"
               >
@@ -161,7 +164,8 @@ const Experiences = () => {
               year of BTech, enhancing problem-solving skills and algorithmic
               proficiency.
               <a
-                href=""
+                href="https://drive.google.com/file/d/11fpr_HQE1g5RH9vmk2WEQRaGsmCM0Fqm/view?usp=drive_link"
+                target="_blank"
                 className="font-bold px-2 py-1 mt-4 border border-white 
                 hover:bg-white hover:text-[#6674cc] transition-all duration-200 rounded-md"
               >
@@ -193,7 +197,8 @@ const Experiences = () => {
               B.Tech, mastering foundational principles and programming
               techniques.
               <a
-                href=""
+                href="https://drive.google.com/file/d/1qKExS8HV6789PFNuz0gsrEwsJcNY5jwk/view?usp=drive_link"
+                target="_blank"
                 className="font-bold px-2 py-1 mt-4 border border-white 
                 hover:bg-white hover:text-[#6674cc] transition-all duration-200 rounded-md"
               >

@@ -1,7 +1,14 @@
 import React, { useEffect, useState } from "react";
-import notesApp from "../assets/project assets/notesApp.png";
-import speechApp from "../assets/project assets/speechApp.png";
-import foodieApp from "../assets/project assets/foodieApp.png";
+import notes from "../assets/project assets/notes.png";
+import speech from "../assets/project assets/speech.png";
+import foodie from "../assets/project assets/foodie.png";
+import razor from "../assets/project assets/razor.png";
+import discord from "../assets/project assets/discord.png";
+import portfolio from "../assets/project assets/portfolio.png";
+import gitdev from "../assets/project assets/gitdev.png";
+import pass from "../assets/project assets/pass.png";
+import weather from "../assets/project assets/weather.png";
+import spotify from "../assets/project assets/spotify.png";
 
 const Projects = () => {
   const projects = [
@@ -9,225 +16,91 @@ const Projects = () => {
       name: "Notes App",
       link: "https://notes-app-react-by-dhruvgoe.vercel.app/",
       repoLink: "https://github.com/dhruvgoe/Notes-App-React",
-      pic: notesApp,
-      techs: ["REACT JS", "TAILWIND"],
+      pic: notes,
+      techs: ["ReactJS", "Tailwind"],
       category: "Web App's",
+      desc: "Built a stylish Notes Memo app with React and Tailwind for seamless functionality and a modern, responsive design, creating an efficient platform for organizing tasks.",
     },
     {
-      name: "Speech-To-Text App",
+      name: "Speech-to-Text App",
       link: "https://speech-to-text-react-by-dhruvgoe.vercel.app/",
       repoLink: "https://github.com/dhruvgoe/Speech-To-Text-React",
-      pic: speechApp,
-      techs: ["REACT JS", "TAILWIND"],
+      pic: speech,
+      techs: ["ReactJS", "Tailwind", "NPM"],
       category: "Web App's",
+      desc: "Empowering seamless voice-to-text conversion with a React and Tailwind CSS interface, enhanced by a robust npm package for unparalleled accuracy and efficiency.",
     },
     {
-      name: "Project Foodie",
+      name: "Foodie Website",
       link: "https://project-foodie-tailwind-by-dhruvgoe.vercel.app/",
       repoLink: "https://github.com/dhruvgoe/Project-Foodie-Tailwind",
-      pic: foodieApp,
-      techs: ["JS", "TAILWIND"],
+      pic: foodie,
+      techs: ["JavaScript", "Tailwind"],
       category: "Web App's",
+      desc: "Savor the symphony of flavors with our culinary creations, where JavaScript magic meets Tailwind elegance on our frontend feast!",
     },
     {
-      name: "Project Foodie",
-      link: "https://project-foodie-tailwind-by-dhruvgoe.vercel.app/",
-      repoLink: "https://github.com/dhruvgoe/Project-Foodie-Tailwind",
-      pic: foodieApp,
-      techs: ["JS", "TAILWIND"],
-      category: "Machine Learning",
-    },
-    {
-      name: "Notes App",
-      link: "https://notes-app-react-by-dhruvgoe.vercel.app/",
-      repoLink: "https://github.com/dhruvgoe/Notes-App-React",
-      pic: notesApp,
-      techs: ["REACT JS", "TAILWIND"],
+      name: "Razorpay Clone Website",
+      link: "https://razorpay-clone-tailwind-by-dhruvgoe.vercel.app/",
+      repoLink: "https://github.com/dhruvgoe/Razorpay-Clone-Tailwind",
+      pic: razor,
+      techs: ["HTML", "CSS"],
       category: "Web App's",
+      desc: "A Razorpay website clone featuring seamless payment solutions, meticulously crafted using HTML and CSS for a polished and intuitive frontend experience.",
     },
     {
-      name: "Speech-To-Text App",
-      link: "https://speech-to-text-react-by-dhruvgoe.vercel.app/",
-      repoLink: "https://github.com/dhruvgoe/Speech-To-Text-React",
-      pic: speechApp,
-      techs: ["REACT JS", "TAILWIND"],
+      name: "Discord Clone Website",
+      link: "https://discord-tailwind-by-dhruvgoe.vercel.app/",
+      repoLink: "https://github.com/dhruvgoe/Discord-Tailwind",
+      pic: discord,
+      techs: ["HTML", "CSS"],
       category: "Web App's",
+      desc: "Discord website clone featuring a sleek and responsive design, crafted with HTML and CSS for a seamless frontend experience.",
     },
     {
-      name: "Project Foodie",
-      link: "https://project-foodie-tailwind-by-dhruvgoe.vercel.app/",
-      repoLink: "https://github.com/dhruvgoe/Project-Foodie-Tailwind",
-      pic: foodieApp,
-      techs: ["JS", "TAILWIND"],
+      name: "Random Portfolio Website",
+      link: "https://random-portfolio-website.vercel.app/",
+      repoLink: "https://github.com/dhruvgoe/Random-Portfolio-Website",
+      pic: portfolio,
+      techs: ["HTML", "CSS", "JavaScript"],
       category: "Web App's",
+      desc: "Elevating user experiences through seamlessly crafted websites with HTML, CSS, and JS magic.",
     },
     {
-      name: "Project Foodie",
-      link: "https://project-foodie-tailwind-by-dhruvgoe.vercel.app/",
-      repoLink: "https://github.com/dhruvgoe/Project-Foodie-Tailwind",
-      pic: foodieApp,
-      techs: ["JS", "TAILWIND"],
-      category: "Machine Learning",
-    },
-    {
-      name: "Notes App",
-      link: "https://notes-app-react-by-dhruvgoe.vercel.app/",
-      repoLink: "https://github.com/dhruvgoe/Notes-App-React",
-      pic: notesApp,
-      techs: ["REACT JS", "TAILWIND"],
+      name: "Github DevDetective",
+      link: "https://github-dev-detective.vercel.app/",
+      repoLink: "https://github.com/dhruvgoe/Github-DevDetective",
+      pic: gitdev,
+      techs: ["HTML", "CSS", "JavaScript"],
       category: "Web App's",
+      desc: "GitHub Dev Detective: Uncover hidden coding gems with our sleek HTML, CSS, and JS-powered frontend and intuitive API integration.",
     },
     {
-      name: "Speech-To-Text App",
-      link: "https://speech-to-text-react-by-dhruvgoe.vercel.app/",
-      repoLink: "https://github.com/dhruvgoe/Speech-To-Text-React",
-      pic: speechApp,
-      techs: ["REACT JS", "TAILWIND"],
+      name: "Password Generator",
+      link: "https://password-generator-phi-sage-12.vercel.app/",
+      repoLink: "https://github.com/dhruvgoe/Password_Generator",
+      pic: pass,
+      techs: ["HTML", "CSS", "JavaScript"],
       category: "Web App's",
+      desc: "An interactive password generator app, crafted with HTML, CSS, and JS, ensuring robust security and user-friendly experience.",
     },
     {
-      name: "Project Foodie",
-      link: "https://project-foodie-tailwind-by-dhruvgoe.vercel.app/",
-      repoLink: "https://github.com/dhruvgoe/Project-Foodie-Tailwind",
-      pic: foodieApp,
-      techs: ["JS", "TAILWIND"],
+      name: "Weather App",
+      link: "https://weather-app-blond-sigma.vercel.app/",
+      repoLink: "https://github.com/dhruvgoe/Weather-App",
+      pic: weather,
+      techs: ["HTML", "CSS", "JavaScript"],
       category: "Web App's",
+      desc: "An intuitive weather app, crafted with HTML, CSS, and JavaScript, seamlessly integrates real-time weather data through an API, offering a visually appealing and user-friendly frontend experience.",
     },
     {
-      name: "Project Foodie",
-      link: "https://project-foodie-tailwind-by-dhruvgoe.vercel.app/",
-      repoLink: "https://github.com/dhruvgoe/Project-Foodie-Tailwind",
-      pic: foodieApp,
-      techs: ["JS", "TAILWIND"],
-      category: "Machine Learning",
-    },
-    {
-      name: "Notes App",
-      link: "https://notes-app-react-by-dhruvgoe.vercel.app/",
-      repoLink: "https://github.com/dhruvgoe/Notes-App-React",
-      pic: notesApp,
-      techs: ["REACT JS", "TAILWIND"],
+      name: "Spotify Clone Website",
+      link: "https://spotify-clone-phi-pearl.vercel.app/",
+      repoLink: "https://github.com/dhruvgoe/Spotify-Clone",
+      pic: spotify,
+      techs: ["HTML", "CSS", "JavaScript"],
       category: "Web App's",
-    },
-    {
-      name: "Speech-To-Text App",
-      link: "https://speech-to-text-react-by-dhruvgoe.vercel.app/",
-      repoLink: "https://github.com/dhruvgoe/Speech-To-Text-React",
-      pic: speechApp,
-      techs: ["REACT JS", "TAILWIND"],
-      category: "Web App's",
-    },
-    {
-      name: "Project Foodie",
-      link: "https://project-foodie-tailwind-by-dhruvgoe.vercel.app/",
-      repoLink: "https://github.com/dhruvgoe/Project-Foodie-Tailwind",
-      pic: foodieApp,
-      techs: ["JS", "TAILWIND"],
-      category: "Web App's",
-    },
-    {
-      name: "Project Foodie",
-      link: "https://project-foodie-tailwind-by-dhruvgoe.vercel.app/",
-      repoLink: "https://github.com/dhruvgoe/Project-Foodie-Tailwind",
-      pic: foodieApp,
-      techs: ["JS", "TAILWIND"],
-      category: "Machine Learning",
-    },
-    {
-      name: "Speech-To-Text App",
-      link: "https://speech-to-text-react-by-dhruvgoe.vercel.app/",
-      repoLink: "https://github.com/dhruvgoe/Speech-To-Text-React",
-      pic: speechApp,
-      techs: ["REACT JS", "TAILWIND"],
-      category: "Web App's",
-    },
-    {
-      name: "Project Foodie",
-      link: "https://project-foodie-tailwind-by-dhruvgoe.vercel.app/",
-      repoLink: "https://github.com/dhruvgoe/Project-Foodie-Tailwind",
-      pic: foodieApp,
-      techs: ["JS", "TAILWIND"],
-      category: "Web App's",
-    },
-    {
-      name: "Project Foodie",
-      link: "https://project-foodie-tailwind-by-dhruvgoe.vercel.app/",
-      repoLink: "https://github.com/dhruvgoe/Project-Foodie-Tailwind",
-      pic: foodieApp,
-      techs: ["JS", "TAILWIND"],
-      category: "Machine Learning",
-    },
-    {
-      name: "Notes App",
-      link: "https://notes-app-react-by-dhruvgoe.vercel.app/",
-      repoLink: "https://github.com/dhruvgoe/Notes-App-React",
-      pic: notesApp,
-      techs: ["REACT JS", "TAILWIND"],
-      category: "Web App's",
-    },
-    {
-      name: "Speech-To-Text App",
-      link: "https://speech-to-text-react-by-dhruvgoe.vercel.app/",
-      repoLink: "https://github.com/dhruvgoe/Speech-To-Text-React",
-      pic: speechApp,
-      techs: ["REACT JS", "TAILWIND"],
-      category: "Web App's",
-    },
-    {
-      name: "Project Foodie",
-      link: "https://project-foodie-tailwind-by-dhruvgoe.vercel.app/",
-      repoLink: "https://github.com/dhruvgoe/Project-Foodie-Tailwind",
-      pic: foodieApp,
-      techs: ["JS", "TAILWIND"],
-      category: "Web App's",
-    },
-    {
-      name: "Project Foodie",
-      link: "https://project-foodie-tailwind-by-dhruvgoe.vercel.app/",
-      repoLink: "https://github.com/dhruvgoe/Project-Foodie-Tailwind",
-      pic: foodieApp,
-      techs: ["JS", "TAILWIND"],
-      category: "Machine Learning",
-    },
-    {
-      name: "Notes App",
-      link: "https://notes-app-react-by-dhruvgoe.vercel.app/",
-      repoLink: "https://github.com/dhruvgoe/Notes-App-React",
-      pic: notesApp,
-      techs: ["REACT JS", "TAILWIND"],
-      category: "Web App's",
-    },
-    {
-      name: "Speech-To-Text App",
-      link: "https://speech-to-text-react-by-dhruvgoe.vercel.app/",
-      repoLink: "https://github.com/dhruvgoe/Speech-To-Text-React",
-      pic: speechApp,
-      techs: ["REACT JS", "TAILWIND"],
-      category: "Web App's",
-    },
-    {
-      name: "Project Foodie",
-      link: "https://project-foodie-tailwind-by-dhruvgoe.vercel.app/",
-      repoLink: "https://github.com/dhruvgoe/Project-Foodie-Tailwind",
-      pic: foodieApp,
-      techs: ["JS", "TAILWIND"],
-      category: "Web App's",
-    },
-    {
-      name: "Project Foodie",
-      link: "https://project-foodie-tailwind-by-dhruvgoe.vercel.app/",
-      repoLink: "https://github.com/dhruvgoe/Project-Foodie-Tailwind",
-      pic: foodieApp,
-      techs: ["JS", "TAILWIND"],
-      category: "Machine Learning",
-    },
-    {
-      name: "Project Foodie",
-      link: "https://project-foodie-tailwind-by-dhruvgoe.vercel.app/",
-      repoLink: "https://github.com/dhruvgoe/Project-Foodie-Tailwind",
-      pic: foodieApp,
-      techs: ["JS", "TAILWIND"],
-      category: "Machine Learning",
+      desc: "Immerse yourself in a seamless music experience with this Spotify clone, crafted using HTML, CSS, and JS, featuring an intuitive frontend design and a curated collection of pre-added songs.",
     },
   ];
 
@@ -248,11 +121,11 @@ const Projects = () => {
       setNoOfProjectCard(2);
     }
   }, [activeFilter]);
-  
+
   const clickHandler = (item) => {
     setActiveFilter(item);
   };
-  
+
   useEffect(() => {
     if (activeFilter === "All") {
       setFilteredProjects(projects);
@@ -262,7 +135,7 @@ const Projects = () => {
       (project) => project.category === activeFilter
     );
     setFilteredProjects(temp);
-  }, [activeFilter,noOfProjectCard]);
+  }, [activeFilter, noOfProjectCard]);
 
   function showMoreHandler() {
     setNoOfProjectCard((prev) => {
@@ -314,7 +187,7 @@ const Projects = () => {
           className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6"
           data-aos="fade-up"
         >
-          {filteredProjects.slice(0,noOfProjectCard).map((item, index) => (
+          {filteredProjects.slice(0, noOfProjectCard).map((item, index) => (
             <div
               key={index}
               className=" bg-white dark:bg-black shadow-lg rounded-lg p-4 
@@ -337,11 +210,7 @@ const Projects = () => {
                   >{`${i}`}</div>
                 ))}
               </div>
-              <p className="text-sm text-black dark:text-white">
-                The app allows users to create, edit, and delete notes using a
-                user-friendly interface. The app also uses local storage to
-                persist the notes data across sessions.
-              </p>
+              <p className="text-sm text-black dark:text-white">{item.desc}</p>
               <div className="flex items-center gap-x-4">
                 <a
                   href={item.link}
