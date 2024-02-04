@@ -15,7 +15,7 @@ import githubLogo from "../assets/skill assets/GitHub.png";
 import vercelLogo from "../assets/skill assets/Vercel.jpg";
 import postmanLogo from "../assets/skill assets/Postman.png";
 import m from "../assets/skillsBgM.png";
-import python from "../assets/skill assets/python.png"
+import pythonLogo from "../assets/skill assets/python.png"
 import mysql from "../assets/skill assets/mysql.png";
 import ml from "../assets/skill assets/ml.png";
 import scikit from "../assets/skill assets/scikit.png";
@@ -77,7 +77,7 @@ const Skills = () => {
   const machineLearningData = [
     {
       name: "Python",
-      logo: python,
+      logo: pythonLogo,
     },
     {
       name: "Machine Learning",
