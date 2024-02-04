@@ -48,7 +48,7 @@ function App() {
         <Contact />
         <Footer />
         <div className="bg-white h-0.5 "></div>
-        <div className="bg-[#6674cc] dark:bg-[#6e96cf] text-white text-center pt-1 pb-4">
+        <div className="bg-[#6674cc] dark:bg-[#29347a] text-white text-center pt-1 pb-4">
           Made with ❤️ by Dhruv
         </div>
       </div>
