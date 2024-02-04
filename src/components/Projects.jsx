@@ -13,33 +13,6 @@ import spotify from "../assets/project assets/spotify.png";
 const Projects = () => {
   const projects = [
     {
-      name: "Notes App",
-      link: "https://notes-app-react-by-dhruvgoe.vercel.app/",
-      repoLink: "https://github.com/dhruvgoe/Notes-App-React",
-      pic: notes,
-      techs: ["ReactJS", "Tailwind"],
-      category: "Web App's",
-      desc: "Built a stylish Notes Memo app with React and Tailwind for seamless functionality and a modern, responsive design, creating an efficient platform for organizing tasks.",
-    },
-    {
-      name: "Speech-to-Text App",
-      link: "https://speech-to-text-react-by-dhruvgoe.vercel.app/",
-      repoLink: "https://github.com/dhruvgoe/Speech-To-Text-React",
-      pic: speech,
-      techs: ["ReactJS", "Tailwind", "NPM"],
-      category: "Web App's",
-      desc: "Empowering seamless voice-to-text conversion with a React and Tailwind CSS interface, enhanced by a robust npm package for unparalleled accuracy and efficiency.",
-    },
-    {
-      name: "Foodie Website",
-      link: "https://project-foodie-tailwind-by-dhruvgoe.vercel.app/",
-      repoLink: "https://github.com/dhruvgoe/Project-Foodie-Tailwind",
-      pic: foodie,
-      techs: ["JavaScript", "Tailwind"],
-      category: "Web App's",
-      desc: "Savor the symphony of flavors with our culinary creations, where JavaScript magic meets Tailwind elegance on our frontend feast!",
-    },
-    {
       name: "Razorpay Clone Website",
       link: "https://razorpay-clone-tailwind-by-dhruvgoe.vercel.app/",
       repoLink: "https://github.com/dhruvgoe/Razorpay-Clone-Tailwind",
@@ -56,6 +29,15 @@ const Projects = () => {
       techs: ["HTML", "CSS"],
       category: "Web App's",
       desc: "Discord website clone featuring a sleek and responsive design, crafted with HTML and CSS for a seamless frontend experience.",
+    },
+    {
+      name: "Foodie Website",
+      link: "https://project-foodie-tailwind-by-dhruvgoe.vercel.app/",
+      repoLink: "https://github.com/dhruvgoe/Project-Foodie-Tailwind",
+      pic: foodie,
+      techs: ["JavaScript", "Tailwind"],
+      category: "Web App's",
+      desc: "Savor the symphony of flavors with our culinary creations, where JavaScript magic meets Tailwind elegance on our frontend feast!",
     },
     {
       name: "Random Portfolio Website",
@@ -101,6 +83,24 @@ const Projects = () => {
       techs: ["HTML", "CSS", "JavaScript"],
       category: "Web App's",
       desc: "Immerse yourself in a seamless music experience with this Spotify clone, crafted using HTML, CSS, and JS, featuring an intuitive frontend design and a curated collection of pre-added songs.",
+    },
+    {
+      name: "Notes App",
+      link: "https://notes-app-react-by-dhruvgoe.vercel.app/",
+      repoLink: "https://github.com/dhruvgoe/Notes-App-React",
+      pic: notes,
+      techs: ["ReactJS", "Tailwind"],
+      category: "Web App's",
+      desc: "Built a stylish Notes Memo app with React and Tailwind for seamless functionality and a modern, responsive design, creating an efficient platform for organizing tasks.",
+    },
+    {
+      name: "Speech-to-Text App",
+      link: "https://speech-to-text-react-by-dhruvgoe.vercel.app/",
+      repoLink: "https://github.com/dhruvgoe/Speech-To-Text-React",
+      pic: speech,
+      techs: ["ReactJS", "Tailwind", "NPM"],
+      category: "Web App's",
+      desc: "Empowering seamless voice-to-text conversion with a React and Tailwind CSS interface, enhanced by a robust npm package for unparalleled accuracy and efficiency.",
     },
   ];
 
