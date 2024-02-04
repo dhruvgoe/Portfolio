@@ -73,7 +73,7 @@ const Navbar = () => {
 
           {/* Part 2 */}
           <div
-            className="text-black dark:text-white items-center gap-x-6 tracking-wide text-xl 
+            className="text-black dark:text-white items-center gap-x-6 tracking-wide text-lg 
           hidden lg:flex"
           >
             {navItems.map((item, index) => (
