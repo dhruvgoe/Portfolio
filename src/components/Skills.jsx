@@ -16,7 +16,7 @@ import vercelLogo from "../assets/skill assets/Vercel.jpg";
 import postmanLogo from "../assets/skill assets/Postman.png";
 import m from "../assets/skillsBgM.png";
 import mysql from "../assets/skill assets/mysql.png";
-import python from "../assets/skill assets/python.png";
+import python from "../assets/skill assets/python.png"
 import ml from "../assets/skill assets/ml.png";
 import scikit from "../assets/skill assets/scikit.png";
 import numpy from "../assets/skill assets/numpy.png";
