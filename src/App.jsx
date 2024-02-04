@@ -11,6 +11,9 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import Projects from "./components/Projects";
 import Education from "./components/Education";
+import Experiences from "./components/Experiences";
+
+import { register } from "swiper/element/bundle";
 
 function App() {
   useEffect(() => {
@@ -34,17 +37,24 @@ function App() {
     document.querySelector("html").classList.add(themeMode);
   }, [themeMode]);
 
+  register();
+
   return (
     <ThemeProvider value={{ themeMode, lightTheme, darkTheme }}>
       <div className="relative w-full min-h-screen overflow-x-hidden">
         <Navbar />
         <HeroSection />
         <About />
-        <Skills />
         <Education />
+        <Skills />
+        <Experiences />
         <Projects />
         <Contact />
         <Footer />
+        <div className="bg-white h-0.5 "></div>
+        <div className="bg-[#6674cc] dark:bg-[#6e96cf] text-white text-center pt-1 pb-4">
+          Made with ❤️ by Dhruv
+        </div>
       </div>
     </ThemeProvider>
   );
