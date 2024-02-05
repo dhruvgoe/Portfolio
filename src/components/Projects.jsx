@@ -9,6 +9,7 @@ import gitdev from "../assets/project assets/gitdev.png";
 import pass from "../assets/project assets/pass.png";
 import weather from "../assets/project assets/weather.png";
 import spotify from "../assets/project assets/spotify.png";
+import mlAlgo from "../assets/project assets/mlAlgo.png";
 
 const Projects = () => {
   const projects = [
@@ -101,6 +102,16 @@ const Projects = () => {
       techs: ["ReactJS", "Tailwind", "NPM"],
       category: "Web App's",
       desc: "Empowering seamless voice-to-text conversion with a React and Tailwind CSS interface, enhanced by a robust npm package for unparalleled accuracy and efficiency.",
+    },
+    {
+      name: "Algorithm compare on Dataset",
+      link: "https://colab.research.google.com/drive/1rMXIMr1VnStRYGim6_qNIqgcaf9_Wu-R?usp=sharing",
+      repoLink:
+        "https://github.com/dhruvgoe/ML_Algorithms_DefaultCreditCardClients",
+      pic: mlAlgo,
+      techs: ["Python", "Numpy", "Pandas", "SkLearn"],
+      category: "Machine Learning",
+      desc: "Implemented a machine learning project in Python using the Default Credit Card Client dataset to assess and compare classification algorithms for predicting credit card default.",
     },
   ];
 
