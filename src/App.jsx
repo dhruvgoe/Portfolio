@@ -51,7 +51,7 @@ function App() {
         <div className="bg-white h-0.5 "></div>
         <div
           className="bg-[#6674cc] dark:bg-[#29347a] text-white
-        flex justify-around items-center"
+        flex justify-around items-center flex-col sm:flex-row "
         >
           <div className="flex justify-around items-center gap-x-2">
             All Rights Reserved <FaRegCopyright />
