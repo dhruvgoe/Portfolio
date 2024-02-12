@@ -121,7 +121,7 @@ const Projects = () => {
       pic: mlAlgo1,
       techs: ["Python", "Numpy", "Pandas", "SkLearn"],
       category: "Machine Learning",
-      desc: "Implemented a machine learning project in Python using the Load_Breast_Cancer dataset to assess and compare classification algorithms for predicting credit card default.",
+      desc: "Implemented a machine learning project in Python using the Load_Breast_Cancer dataset to assess and compare different algorithms for predicting whether patient has cancer or not.",
     },
   ];
 
