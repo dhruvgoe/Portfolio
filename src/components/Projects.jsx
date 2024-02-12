@@ -113,6 +113,15 @@ const Projects = () => {
       category: "Machine Learning",
       desc: "Implemented a machine learning project in Python using the Default Credit Card Client dataset to assess and compare classification algorithms for predicting credit card default.",
     },
+    {
+      name: "Algorithm compare on Dataset",
+      link: "https://colab.research.google.com/drive/15QTS1ZC42oux_B-icjvAhT8wtjhWK_dP",
+      repoLink: "https://github.com/dhruvgoe/Breast_Cancer_Dataset_ML",
+      pic: mlAlgo,
+      techs: ["Python", "Numpy", "Pandas", "SkLearn"],
+      category: "Machine Learning",
+      desc: "Implemented a machine learning project in Python using the Load_Breast_Cancer dataset to assess and compare classification algorithms for predicting credit card default.",
+    },
   ];
 
   const filters = ["All", "Web App's", "Machine Learning"];
