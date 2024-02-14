@@ -49,14 +49,16 @@ function App() {
         <Contact />
         <Footer />
         <div className="bg-white h-0.5 "></div>
-        <div
-          className="bg-[#6674cc] dark:bg-[#29347a] text-white
-        flex justify-around items-center flex-col sm:flex-row "
-        >
-          <div className="flex justify-around items-center gap-x-2">
-            All Rights Reserved <FaRegCopyright />
+        <div className="bg-[#6674cc] dark:bg-[#29347a]">
+          <div
+            className="w-11/12 md:w-10/12 mx-auto max-w-7xl text-white
+        flex justify-between items-center flex-col sm:flex-row py-2"
+          >
+            <div className="flex justify-around items-center gap-x-2">
+              All Rights Reserved <FaRegCopyright />
+            </div>
+            <div className="">Made with ❤️ by Dhruv</div>
           </div>
-          <div className="">Made with ❤️ by Dhruv</div>
         </div>
       </div>
     </ThemeProvider>
