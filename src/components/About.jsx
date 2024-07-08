@@ -5,9 +5,7 @@ import me from "../assets/Me.png";
 const About = () => {
   return (
     <div className="w-full bg-white dark:bg-[#131516] pt-24" id="about">
-      <div
-        className="w-11/12 md:10/12 max-w-7xl mx-auto " 
-      >
+      <div className="w-11/12 md:10/12 max-w-7xl mx-auto ">
         <div className="text-black dark:text-white text-3xl font-bold tracking-wider">
           About <span className="text-[#6674cc] dark:text-[#6e96cf]">Me</span>
         </div>
@@ -49,9 +47,10 @@ const About = () => {
           extends beyond the classroom, fueled by an insatiable curiosity for
           machine learning. Leveraging this enthusiasm, I immerse myself in the
           dynamic realm of technology, constantly pushing boundaries and
-          embracing challenges.
+          embracing challenges. Additionally, I am exploring the fields of Deep
+          Learning and OpenCV, expanding my knowledge and skills in these
+          cutting-edge areas.
         </div>
-      
       </div>
     </div>
   );

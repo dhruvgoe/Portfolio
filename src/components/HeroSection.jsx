@@ -9,7 +9,6 @@ import instagram from "../assets/instagram-1.svg";
 import Button from "./Button";
 
 const HeroSection = () => {
-
   return (
     <div className="w-full bg-white dark:bg-[#131516] pt-44 pb-12">
       <div
@@ -48,6 +47,8 @@ const HeroSection = () => {
                   strings: [
                     "Full Stack Developer",
                     "Machine Learning Enthusiast",
+                    "Deep Learner",
+                    "OpenCV Explorer",
                     "Coder",
                   ],
                   autoStart: true,
