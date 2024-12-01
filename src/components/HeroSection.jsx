@@ -45,7 +45,7 @@ const HeroSection = () => {
               <Typewriter
                 options={{
                   strings: [
-                    "Full Stack Developer",
+                    "Frontend Developer",
                     "Machine Learning Enthusiast",
                     "Deep Learner",
                     "OpenCV Explorer",
@@ -61,7 +61,7 @@ const HeroSection = () => {
             className="text-black dark:text-white text-sm sm:text-lg
           text-center sm:text-left"
           >
-            Welcome to my portfolio! I'm a Full Stack Developer and Machine
+            Welcome to my portfolio! I'm a Developer and Machine
             Learning enthusiast, showcasing my journey in software development,
             from user interfaces to diving into AI. Join me on this digital
             journey of constant learning and growth.
