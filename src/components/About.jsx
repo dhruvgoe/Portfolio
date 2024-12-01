@@ -38,7 +38,7 @@ const About = () => {
           <span className="font-semibold text-[#6674cc] dark:text[#6e96cf]">
             Dhruv Goel
           </span>
-          , a passionate 3rd year B.Tech student specializing in Artificial
+          , a passionate 4th year B.Tech student specializing in Artificial
           Intelligence and Machine Learning at the University School of
           Automation and Robotics in Delhi. Alongside my academic pursuits, I
           thrive as a Full Stack Developer, blending creativity with technical
