@@ -32,7 +32,7 @@ const Education = () => {
             className="vertical-timeline-element--work "
             contentStyle={{ background: "#6674cc", color: "#fff" }}
             contentArrowStyle={{ borderRight: "7px solid  #6674cc" }}
-            date={<div>2021-Present</div>}
+            date={<div>2021-2025</div>}
             dateClassName={"xl:text-black dark:xl:text-white text-white"}
             icon={<IoSchool />}
             iconStyle={{ background: "#6674cc", color: "#fff" }}
@@ -44,7 +44,7 @@ const Education = () => {
               USAR,GGSIPU
             </h4>
             <p>
-              Embarked on a transformative journey, earning a Bachelor's in
+              Embarked on a transformative journey with an aggregate of <b>8.95 CGPA</b>, earning a Bachelor's in
               Technology, mastering the art of innovation and problem-solving.
             </p>
           </VerticalTimelineElement>
@@ -64,8 +64,8 @@ const Education = () => {
               CBSE
             </h4>
             <p>
-              Successfully completed Senior Secondary Education with
-              distinction, laying the foundation for academic excellence
+              Successfully completed Senior Secondary Education with an impressive aggregate of
+              <b> 94%</b>, laying the foundation for academic excellence
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -84,7 +84,7 @@ const Education = () => {
               CBSE
             </h4>
             <p>
-              Successfully completed Secondary Education, laying the foundation
+              Successfully completed Secondary Education with <b>91.4%</b>, laying the foundation
               for future endeavors.
             </p>
           </VerticalTimelineElement>

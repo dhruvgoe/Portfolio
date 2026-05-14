@@ -1,6 +1,6 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
-import heroSectionImg from "../assets/AI_Image_Myself.png";
+import heroSectionImg from "../assets/AI_Image_Myself.jpeg";
 import waveHand from "../assets/waving-hand.svg";
 import mail from "../assets/envelope.svg";
 import linkedin from "../assets/linkedin-original.svg";
@@ -45,10 +45,10 @@ const HeroSection = () => {
               <Typewriter
                 options={{
                   strings: [
-                    "Frontend Developer",
-                    "Machine Learning Enthusiast",
-                    "Deep Learner",
-                    "OpenCV Explorer",
+                    "Cloud Enthusiast",
+                    "Machine Learning Student",
+                    "DevOps Learner",
+                    "AWS Geek",
                     "Coder",
                   ],
                   autoStart: true,
@@ -61,13 +61,15 @@ const HeroSection = () => {
             className="text-black dark:text-white text-sm sm:text-lg
           text-center sm:text-left"
           >
-            Welcome to my portfolio! I'm a Developer and Machine
-            Learning enthusiast, showcasing my journey in software development,
-            from user interfaces to diving into AI. Join me on this digital
-            journey of constant learning and growth.
+            Welcome to my portfolio! 
+            I am a Developer transitioning into the DevOps ecosystem, 
+            bridging the gap between clean code and scalable infrastructure. 
+            My journey has evolved from building user interfaces to 
+            architecting CI/CD pipelines and managing automated environments. 
+            Explore my work as I navigate the intersection of software delivery and operational excellence.
           </div>
           <a
-            href="https://drive.google.com/file/d/11h2cRYQ9FznJIt9RirPBOZV5PBuCPso3/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1Gzd0I9NuZFHghrx7dmX2d3MOZPZBRktY/view?usp=drive_link"
             className="outline-none"
             target="_blank"
           >

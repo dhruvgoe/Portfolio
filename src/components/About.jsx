@@ -31,26 +31,14 @@ const About = () => {
         </div>
 
         <div
-          className="text-black dark:text-white text-center pb-8"
+          className="text-black dark:text-white text-center justify-content pb-8"
           data-aos="fade-up"
         >
           Hello, I'm{" "}
-          <span className="font-semibold text-[#6674cc] dark:text[#6e96cf]">
+          <span className="font-semibold text-[#6674cc] dark:text-[#6e96cf]">
             Dhruv Goel
           </span>
-          , a passionate 4th year B.Tech student specializing in Artificial
-          Intelligence and Machine Learning at the University School of
-          Automation and Robotics in Delhi. Alongside my academic pursuits, I
-          thrive as a Full Stack Developer, blending creativity with technical
-          expertise. Proficient in languages such as C, C++, and Python, I
-          embark on coding adventures to solve real-world problems. My journey
-          extends beyond the classroom, fueled by an insatiable curiosity for
-          machine learning. Leveraging this enthusiasm, I immerse myself in the
-          dynamic realm of technology, constantly pushing boundaries and
-          embracing challenges. Additionally, I am exploring the fields of Deep
-          Learning and OpenCV, expanding my knowledge and skills in these
-          cutting-edge areas.
-        </div>
+          , a B.Tech graduate in CSE (AIML) from the USAR, GGSIPU, Delhi, with a growing passion for Cloud Computing and DevOps. I am an AWS Certified Cloud Practitioner and a Cloud & DevOps Enthusiast skilled in AWS, Docker, Kubernetes, Terraform, CI/CD, and Python. I enjoy building scalable, automated, and reliable systems while continuously exploring modern cloud technologies and DevOps practices.        </div>
       </div>
     </div>
   );
